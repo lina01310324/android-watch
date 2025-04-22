@@ -1,0 +1,5 @@
+echo '<?xml version="1.0" encoding="utf-8"?>' > app/phone/login_page.xml
+echo '<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">' >> app/phone/login_page.xml
+echo '  <EditText android:id="@+id/enterCode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="輸入8位數字" android:inputType="number"/>' >> app/phone/login_page.xml
+echo '  <Button android:id="@+id/getTokenButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="獲取Token"/>' >> app/phone/login_page.xml
+echo '</LinearLayout>' >> app/phone/login_page.xml
